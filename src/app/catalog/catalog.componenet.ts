@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
+import { ProductDetailsComponent } from '../product-details/product-details.component';
 
 @Component({
-  imports: [],
+  imports: [ProductDetailsComponent],
   selector: 'bot-catalog',
   styleUrl: './catalog.componenet.css',
   templateUrl: './catalog.componenet.html',
